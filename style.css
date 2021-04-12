@@ -1,0 +1,51 @@
+body{
+    background-image: url("./wallpaper1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.con{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #a6f6ff;
+    border: 1px solid black;
+    opacity: 0.9;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+  }
+  
+.mb-3{
+    color: black;
+    font-weight: bold;
+    width:600px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.col-sm-10{
+    width: 150px;
+    text-align: center;
+}
+
+label{
+    padding: 0px;
+}
+
+.resultblock{
+    margin-top: 30px;
+}
+
+.resultlabel{
+    font-size: 25px;
+}
+
+
+.link-danger{
+    color:#ff002c;
+}
+
+.link-danger:hover{
+    color:#ff00c3;
+}
