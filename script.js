@@ -103,7 +103,7 @@ function calculate()
         sum=sum+(prices[i]*quantities[i]);
     }
     var currency="¥";
-    var withoutcom=(sum*0.9725);
+    var withoutcom=(sum*0.9725).toFixed(2);
     document.getElementById("result").innerHTML=sum+" "+currency.charAt(1);
     var youget=" (You get : " + withoutcom +" "+currency.charAt(1)+")";
     document.getElementById("youget").innerHTML=youget;
